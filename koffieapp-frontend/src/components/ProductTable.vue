@@ -26,7 +26,7 @@
                 <tr v-for="koffieItem in koffieItems" :key="koffieItem.id">
                     <td>{{ koffieItem.id }}</td>
                     <td>{{ koffieItem.name }}</td>
-                    <td>{{ koffieItem._cost }}</td>
+                    <td>{{ koffieItem.cost }}</td>
                     <td data-v-bf5d2bb8="">
                         <a data-v-bf5d2bb8="" href="#" class="icon">
                             <i data-v-bf5d2bb8="" class="fa fa-trash">
